@@ -1,6 +1,6 @@
 package DBH;
 
-$VERSION = 1.1;
+$VERSION = 1.2;
 
 use Exporter;
 use DBI;
@@ -19,6 +19,8 @@ use constant DB_NULL	=> 4;
 use constant SQL_REG	=> 1;
 use constant SQL_WILD	=> 2;
 use constant SQL_REGEX	=> 3;
+use constant SQL_RE	=> 3;
+use constant SQL_REGEXP	=> 3;
 
 sub new
 {
